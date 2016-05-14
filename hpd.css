@@ -88,13 +88,13 @@ ul li a i {
     background-color: #1A7F2E;
 }
 .fa-rss {
-  background-color: #000
+  background-color: #EE9103
 }
 .fa-newspaper-o {
-  background-color: #000;
+  background-color: #6A6A6A;
 }
 ul li a i:hover {
-    opacity: .7;
+    opacity: .6;
 }
 .center {
   text-align: center;
