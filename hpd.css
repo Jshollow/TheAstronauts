@@ -1,5 +1,5 @@
 body {
-  background-color: #0277bd;
+
 }
 font {
   color: #0277bd;
@@ -44,6 +44,7 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
+
 /*PHILLIP*/
 
 div.banner {
@@ -105,4 +106,59 @@ div.service {
   height: 20vw;
   min-height: 182px;
 
+}
+
+/*Social media icon & link styling*/
+.social-media {
+  font-size: 13px;
+  padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+    overflow: auto;
+    padding-left: 0 !important;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 35px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook{
+    background-color: #0F54B8;
+}
+.fa-twitter {
+    background-color: #00aced;
+}
+.fa-youtube {
+    background-color: #EE3030;
+}
+.fa-headphones {
+    background-color: #1A7F2E;
+}
+.fa-rss {
+  background-color: #EE9103
+}
+.fa-newspaper-o {
+  background-color: #6A6A6A;
+}
+ul li a i:hover {
+    opacity: .6;
+}
+.center {
+  text-align: center;
 }
