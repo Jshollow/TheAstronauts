@@ -60,10 +60,6 @@ div.banner {
 }
 
 #navbar-title {
-  position: static;
-}
-
-#navbar-title h1 {
   position: relative;
   z-index: 99;
 }
@@ -78,7 +74,7 @@ div.banner {
 
 .service {
   position: relative;
-  
+  z-index: 2;
   background-image: url('images/some_token.png');
   background-repeat: no-repeat;
   background-position: center;
