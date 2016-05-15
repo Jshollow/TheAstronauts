@@ -63,6 +63,10 @@ div.banner {
   position: static;
 }
 
+#navbar-title h1 {
+  z-index: 99;
+}
+
 .banner #navbar-title.pastBanner {
   width: 100%;
   top: 0;
@@ -94,12 +98,12 @@ div.banner {
 
 .service .title {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   z-index: 2;
   width:40%;
+  text-align: center;
   width: 231px;
   height: 60px;
-  overflow: hidden;
   margin: 0 auto;
   left:0;
   right:0;
