@@ -73,7 +73,24 @@ div.banner {
 
 .service {
   position: relative;
+  
+  background-image: url('images/some_token.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+/* PROBABLY DELETE
+.service .service-icon {
+  width: 100px;
+  height: 100px;
+
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+
+}*/
 
 .service .title {
   position: absolute;
@@ -83,7 +100,6 @@ div.banner {
   width: 231px;
   height: 60px;
   overflow: hidden;
-  background: #fff;
   margin: 0 auto;
   left:0;
   right:0;
