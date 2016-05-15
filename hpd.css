@@ -48,7 +48,7 @@ div.panel.show {
 /*PHILLIP*/
 
 div.banner {
-  height: 46vw;
+  height: 100vh;
   background-image: url("Images/HPDConnectBanner.png");
   background-size: cover;
 }
@@ -64,6 +64,7 @@ div.banner {
 }
 
 #navbar-title h1 {
+  position: relative;
   z-index: 99;
 }
 
