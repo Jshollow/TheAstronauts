@@ -11,14 +11,14 @@ img{
 
 a {
    color: yellow;
-   font-family: "Times New Roman", Times, serif;
+   /*font-family: "Times New Roman", Times, serif;*/
    font-size: 180%;
    display: inline;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
     background-color: #003366;
-    font-family: "Times New Roman", Times, serif;
+   /* font-family: "Times New Roman", Times, serif;*/
     font-size: 180%;
     color: #fff;
     cursor: pointer;
@@ -27,17 +27,22 @@ button.accordion {
     border: none;
     outline: none;
     transition: 0.4s;
+    margin-bottom: 5px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-    background-color: #BFCCD9;
+    /*background-color: #BFCCD9;*/
+    background-color: rgba(0, 51, 102, 0.7);
 }
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
-    background-color: #0277bd;
+    /*background-color: #0277bd;*/
+    background-color: #ffffff;
     display: none;
+    border: none;
+    box-shadow: none;
 }
 
 /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
@@ -45,7 +50,15 @@ div.panel.show {
     display: block !important;
 }
 
-/*PHILLIP*/
+div.panel hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.panel a {
+  font-size: 150%;
+}
+/*PHILLIP, SARAH, JAISON, JABARI - The Astronauts!*/
 
 div.banner {
   height: 100vh;
@@ -54,6 +67,7 @@ div.banner {
 }
 
 .banner #navbar-title {
+  text-align: center;
   background: grey;
   color: white;
   background-color: rgba(0, 51, 102, 0.7);
@@ -62,6 +76,16 @@ div.banner {
 #navbar-title {
   position: relative;
   z-index: 99;
+}
+
+#hpd-seal {
+  width: 64px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+.banner-title {
+  margin-top: 5px;
 }
 
 .banner #navbar-title.pastBanner {

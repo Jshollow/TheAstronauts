@@ -8,12 +8,12 @@ for (i = 0; i < acc.length; i++) {
         this.nextElementSibling.classList.toggle("show");
     }
 }
-test = new Date()
+/*test = new Date()
 month = test.getMonth()
 month = (month * 1) + 1
 day = test.getDate()
 year = test.getFullYear()
-document.write(" ",month,"/",day,"/",year," ")
+document.write(" ",month,"/",day,"/",year," ")*/
 
 var elementPosition = $('#navbar-title').offset();
 
